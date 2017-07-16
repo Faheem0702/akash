@@ -1,0 +1,77 @@
+sudo yum install git-core
+
+git --version
+
+git config --global user.name "Faheem0702"
+
+git config --global user.email "sfaheem0702@gmail.com"
+
+git clone https://github.com/Faheem0702/Git-repo.git
+
+
+
+git clone https://github.com/Faheem0702/akash.git
+
+git clone https://github.com/Faheem0702/faheem.git
+
+
+
+cd <Git-repo>
+
+git status
+
+mkdir test
+
+cd test
+
+vi file1.txt
+
+i  <insert i>
+
+//text
+
+<esc button> :wq!
+
+cat file1.txt
+
+cd ..
+
+git status
+
+git add .
+
+git commit -m "message"
+
+git push -u origin master
+
+//check github account..
+.............................................
+ vi .gitignore
+        {
+                /test/file
+        }
+....................................
+git rm -r --cached .
+
+git add .
+
+
+git commit -m "fixing .gitignore"
+
+
+
+
+
+
+
+
+
+git log --all
+...
+git show <id>
+..................................................
+
+
+
+
+chitti.tn@gmail.com
